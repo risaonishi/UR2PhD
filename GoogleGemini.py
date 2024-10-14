@@ -40,10 +40,6 @@ def AskGoogleGemini(model: str, prompt: str, max_output_tokens=1024, force=False
                 "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
                 "threshold": "BLOCK_NONE"
             },
-            {
-                "category": "HARM_CATEGORY_CIVIL_INTEGRITY",
-                "threshold": "BLOCK_NONE"
-            },
         ]
     
     # If force is True, always get a new response from Gemini
