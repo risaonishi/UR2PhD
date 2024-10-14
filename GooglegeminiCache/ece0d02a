@@ -1,0 +1,10 @@
+```python
+future_prospects = {
+    "Software Engineer": "A GPA of 3.0 is generally considered the minimum requirement for entry-level software engineering positions.",
+    "Data Analyst": "Data analysis roles often require a strong foundation in statistics and mathematics, which may be reflected in a higher GPA.",
+    "Web Developer": "Web development positions may be more flexible in terms of GPA requirements, as they often emphasize practical skills and experience."
+}
+
+if gpa < 2.0:
+    future_prospects = {"hopeless": "Your grades are extremely poor and will likely hinder your ability to secure a job in the field."}
+```
