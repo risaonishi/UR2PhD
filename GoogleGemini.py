@@ -9,7 +9,7 @@ def InitGoogleGemini(folder=''):
         api_key = f.readline()
         genai.configure(api_key=api_key)
 
-def AskGoogleGemini(model: str, prompt: str, max_output_tokens=1024, force=False, temperature=0.2, top_k=40) -> str | dict:
+def AskGoogleGemini(prompt: str, model='gemini-pro', max_output_tokens=1024, force=False, temperature=0.2, top_k=40) -> str | dict:
     "Ask a prompt to given Google Cloud model and return the response text and safety ratings."
     model = genai.GenerativeModel(model)
     
