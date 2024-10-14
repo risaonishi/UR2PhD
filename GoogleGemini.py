@@ -5,7 +5,9 @@ import hashlib
 def InitGoogleGemini(folder=''):
     "Retrieve my API key and initialize Gemini with it"
     folder = os.path.dirname(os.path.abspath(__file__)) + '/' # Folder of this script
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = folder + 'MyPersonalKeyAPI/secret' # Personal key
+    with open(folder + 'MyPersonalKeyAPI/secret', 'r') as f: # Path to the API key
+        api_key = f.readline()
+        genai.configure(api_key=api_key)
 
 def AskGoogleGemini(model: str, prompt: str, max_output_tokens=1024, force=False, temperature=0.2, top_k=40) -> str | dict:
     "Ask a prompt to given Google Cloud model and return the response text and safety ratings."
