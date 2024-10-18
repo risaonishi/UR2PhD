@@ -1,0 +1,10 @@
+```python
+future_prospects = {
+    "Software Engineer": "A GPA of 3.3 is generally considered competitive for entry-level software engineering positions.",
+    "Data Scientist": "Data science roles often require a higher GPA, but with additional experience and skills, a 3.3 GPA can still be considered.",
+    "Web Developer": "Web development roles may be more accessible with a GPA of 3.3, as they often emphasize practical skills over academic performance."
+}
+
+if gpa < 2.0:
+    future_prospects = {"hopeless": "Your grades are extremely low and will likely make it difficult to secure any meaningful employment."}
+```
