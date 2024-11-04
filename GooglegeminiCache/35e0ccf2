@@ -1,0 +1,7 @@
+```python
+future_prospects = {
+    "Software Engineer": "A GPA of 3.9 in computer science demonstrates exceptional academic achievement and a strong foundation in the field. This makes you a highly competitive candidate for software engineering roles, where employers value technical skills and problem-solving abilities.",
+    "Data Scientist": "With a GPA of 3.9, you have a solid understanding of data analysis, machine learning, and statistical modeling. This qualifies you for data science positions, where you can leverage your analytical skills to extract insights from large datasets.",
+    "Computer Science Researcher": "Your high GPA indicates a strong aptitude for research and a deep understanding of computer science principles. This opens up opportunities for pursuing a career in academia or research institutions, where you can contribute to the advancement of the field."
+}
+```
